@@ -1,0 +1,12 @@
+1. Server - Client Architecture (independent of each other)
+
+Client -> Req -> Server -> Res -> Client
+
+Response -> Text/HTML/JSON
+
+HTML -> SSR(Server Side Rendering) - Good for Browsers but not other clients like Alexa
+JSON -> Suitable for All types of Clients - CSR(Client Side Rendering)
+
+2. Always respect all http methods.
+
+GET/POST/DELETE/PUT(Modify entire data)/PATCH(modify data partially)
