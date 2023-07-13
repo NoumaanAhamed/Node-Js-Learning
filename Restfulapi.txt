@@ -10,3 +10,8 @@ JSON -> Suitable for All types of Clients - CSR(Client Side Rendering)
 2. Always respect all http methods.
 
 GET/POST/DELETE/PUT(Modify entire data)/PATCH(modify data partially)
+
+Rest API Routes: Hybrid 
+
+for Browsers: /route -> Render HTML
+for other clients : /api/route -> Render JSON
