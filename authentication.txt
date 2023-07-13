@@ -1,0 +1,31 @@
+Two Types -> StateFull / StateLess
+
+1. StateFull -> Data maintained in backend /Depends on State / Memory intensive on server
+
+client --> username/password --> server
+server --> session uid --> client
+client --> request + uid --> server
+server --> response --> client
+
+uid : cookies/response/headers
+
+SSR -> Cookies(ejs)
+CSR -> Headers(rest apis)
+
+Express Flow: Client -> Auth Middleware --> valid uid --> next()/reject
+
+Best Practices:
+
+- required/unique/timestamps in DB
+- Different route for Auth -> user.js
+- Separate Frontend in views -> signup/login
+- send cookie as uuid 
+
+2. Stateless -> data not maintained -> State present in payload
+
+-using jwt
+
+client --> username/password --> server
+server --> send jwt (hashed) with payload --> client
+client --> request + jwt --> server
+server --> response --> client
