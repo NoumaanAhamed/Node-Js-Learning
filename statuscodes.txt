@@ -1,0 +1,11 @@
+100 - 199 -> Informational Responses
+
+200 - 299 -> Successful Responses
+
+300 - 399 -> Redirection Responses
+
+400 - 499 -> Client error Responses
+
+500 - 599 -> Server Error Responses
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
