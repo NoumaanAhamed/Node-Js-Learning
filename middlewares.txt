@@ -1,0 +1,14 @@
+Middleware runs on every request and response
+They have access to execute any code/(req,res,next)/End the req-res cycle
+
+Client -> Req -> Middleware -> Client
+or
+Client -> Req -> Middleware -> Server -> Client
+
+middlewares execute in order (next)
+
+app.use((req,res,next)=>{
+    next(); -> goes to next middlewares
+})
+
+ex. make 'log.txt' for every request as middlewares
