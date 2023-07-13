@@ -1,0 +1,17 @@
+mvc -> models,views,controllers
+
+Models : Schema / Models of Database
+
+Views : Frontend
+
+Routes : using router()
+
+Controllers : Handlers from routes
+
+Middlewares : all middlewares
+
+index.js: Overview
+
+connection.js : consists of connection
+
+https://www.youtube.com/watch?v=JLtXoru-ipo&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&index=20
