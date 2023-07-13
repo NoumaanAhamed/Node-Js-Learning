@@ -15,3 +15,10 @@ Rest API Routes: Hybrid
 
 for Browsers: /route -> Render HTML
 for other clients : /api/route -> Render JSON
+
+Headers : meta-data
+
+custom header: 
+
+res.setHeader("X-Name","Noumaan")
+req.headers
